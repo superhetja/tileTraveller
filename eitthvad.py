@@ -52,7 +52,7 @@ def valid_directions(x,y):
     return North, South, West, East
     
 
-def new_location (x, y, directions):
+def new_location (x, y):
     """Finds the new locations and returns result"""
     North, South, West, East = walls(x,y)
     while True:
@@ -79,8 +79,8 @@ x = 1
 y = 1
 while not ((x == 3) and ( y == 1)):
 
-    directions = valid_directions(x,y)
-    x,y = new_location(x,y, directions)
+    valid_directions(x,y)
+    x,y = new_location(x,y)
 
 
 print ('Victory!')
