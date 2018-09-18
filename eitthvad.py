@@ -3,6 +3,9 @@
 # Við byðjum notandann um input þangað til hann slær in valid input. og færum notandann á viðeigandi reit.
 # þangað til notandinn er kominn á reit 3,1 þá lýkur forritið
 # git er skemmtilegt
+
+#https://github.com/superhetja/tileTraveller
+
 def walls (x, y):
     """ Defines all the walls of the board"""
     North = True
@@ -84,3 +87,4 @@ while not ((x == 3) and ( y == 1)):
 
 
 print ('Victory!')
+
