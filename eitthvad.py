@@ -2,6 +2,7 @@
 # Við útilokum þær átti sem notandinn má ekki fara á s.s allir útveggir og miðju vegginir sem eru lokaðir.
 # Við byðjum notandann um input þangað til hann slær in valid input. og færum notandann á viðeigandi reit.
 # þangað til notandinn er kominn á reit 3,1 þá lýkur forritið
+# git er skemmtilegt
 def walls (x, y):
     """ Defines all the walls of the board"""
     North = True
