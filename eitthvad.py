@@ -3,7 +3,15 @@
 # Við byðjum notandann um input þangað til hann slær in valid input. og færum notandann á viðeigandi reit.
 # þangað til notandinn er kominn á reit 3,1 þá lýkur forritið
 # git er skemmtilegt
-
+# 1. Which implementation was easier and why?
+# I think it was the same it looks exatcly the same and the code is just as long
+# 2. Which implementation is more readable and why?
+# Maybe the definition code since the functions are defined and you can read through them
+# 3. Which problems in the first implementations were you able to solve with the latter
+# implementation?
+#Nothing really so I'm not so sure now that I did it right. But if your not using the 
+#function more then once then all your doing is moving the functionality, and I can't
+#find a way to use the function more than once.
 #https://github.com/superhetja/tileTraveller
 
 def walls (x, y):
@@ -77,14 +85,12 @@ def new_location (x, y):
             print('Not a valid direction!')
     return x, y
 
-
 x = 1
 y = 1
 while not ((x == 3) and ( y == 1)):
 
     valid_directions(x,y)
     x,y = new_location(x,y)
-
 
 print ('Victory!')
 
